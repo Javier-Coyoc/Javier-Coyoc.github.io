@@ -1,10 +1,8 @@
-theme: jekyll-theme-chirpy
-title: "HCI - SPP3: Project website"
-description: "Project website for HCI, containing all our group's presentations, reports, and prototypes."
-
-# Branding & Metadata
-tagline: "ClearType: Making web content readable for every mind" 
-logo: "/assets/images/logo.png"
+theme: Scriptor-Jekyll-Theme
+title: "ClearType"
+description: "Project website for HCI ClearType, containing presentations, reports, and interactive prototypes."
+tagline: " Making web content readable for every mind"
+logo: "/assets/images/cleartype-logo.svg"
 
 # Social / Repository details (supported by Scriptor)
 github_username: "Javier-Coyoc"
