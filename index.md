@@ -26,13 +26,61 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 ## Documentation
 
 ### Phase Reports
-| SPP | Title | Document |
-| :--- | :--- | :--- |
-| SPP2 | Needfinding & Problem Discovery | [PDF Report]({{ site.baseurl }}/assets/reports/spp2-needfinding-report.pdf) |
-| SPP5 | Low-Fi Prototyping | [PDF Report]({{ site.baseurl }}/assets/reports/spp5-low-fi-prototyping-report.pdf) |
-| Phase 3 | Medium-Fidelity Evaluation | [PDF Report]({{ site.baseurl }}/assets/reports/spp3-medfi-report.pdf) |
-| Final | Final Project Report | [PDF Report]({{ site.baseurl }}/assets/reports/final-report.pdf) |
+<!-- Report Card 1: SPP2 -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <div style="flex: 1; min-width: 260px;">
+    <img src="{{ site.baseurl }}/assets/images/spp2-preview.png" alt="SPP2 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+  </div>
+  <div style="flex: 1.2; min-width: 260px;">
+    <h3 style="margin-top: 0; color: #0f172a;">SPP2 — Needfinding & Problem Discovery</h3>
+    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Comprehensive study on dyslexic reading hurdles, user interviews, and experience prototype insights.</p>
+    <div>
+      <a href="{{ site.baseurl }}/assets/reports/spp2-needfinding-report.pdf" target="_blank" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">PDF Report</a>
+    </div>
+  </div>
+</div>
 
+<!-- Report Card 2: SPP5 -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); flex-direction: row-reverse;">
+  <div style="flex: 1; min-width: 260px;">
+    <img src="{{ site.baseurl }}/assets/images/spp5-preview.png" alt="SPP5 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+  </div>
+  <div style="flex: 1.2; min-width: 260px;">
+    <h3 style="margin-top: 0; color: #0f172a;">SPP5 — Low-Fi Prototyping Report</h3>
+    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Paper prototype testing observations, task success rates, and user feedback evaluations.</p>
+    <div>
+      <a href="{{ site.baseurl }}/assets/reports/spp5-low-fi-prototyping-report.pdf" target="_blank" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">PDF Report</a>
+    </div>
+  </div>
+</div>
+
+<!-- Report Card 3: Phase 3 -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <div style="flex: 1; min-width: 260px;">
+    <img src="{{ site.baseurl }}/assets/images/spp3-preview.png" alt="Phase 3 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+  </div>
+  <div style="flex: 1.2; min-width: 260px;">
+    <h3 style="margin-top: 0; color: #0f172a;">Phase 3 — Medium-Fidelity Evaluation</h3>
+    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Evaluation report analyzing wireframe interactions, navigation flows, and overlay controls.</p>
+    <div>
+      <a href="{{ site.baseurl }}/assets/reports/spp3-medfi-report.pdf" target="_blank" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">PDF Report</a>
+    </div>
+  </div>
+</div>
+
+<!-- Report Card 4: Final Report -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); flex-direction: row-reverse;">
+  <div style="flex: 1; min-width: 260px;">
+    <img src="{{ site.baseurl }}/assets/images/final-preview.png" alt="Final Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+  </div>
+  <div style="flex: 1.2; min-width: 260px;">
+    <h3 style="margin-top: 0; color: #0f172a;">Final Project Report</h3>
+    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Complete end-to-end documentation of design iterations, usability evaluations, and platform results.</p>
+    <div>
+      <a href="{{ site.baseurl }}/assets/reports/final-report.pdf" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">PDF Report</a>
+    </div>
+  </div>
+</div>
 ---
 
 ### Presentations
