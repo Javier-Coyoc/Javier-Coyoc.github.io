@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="{{ site.baseurl }}/assets/images/cleartype-logo.svg" alt="ClearType Logo" width="180">
+  <img src="{{ site.baseurl }}/assets/images/cleartype-logo.svg" alt="ClearType Logo" style="width: 280px; max-width: 100%; height: auto;">
   <p style="font-size: 1.25rem; font-weight: bold; color: #444;">
     Empowering readers with dyslexia through real-time, customizable visual typography overlays.
   </p>
