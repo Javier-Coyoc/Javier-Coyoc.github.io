@@ -26,7 +26,7 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 ## Documentation
 
 ### Phase Reports
-| SPP# | Title | Document |
+| SPP | Title | Document |
 | :--- | :--- | :--- |
 | SPP2 | Needfinding & Problem Discovery | [PDF Report]({{ site.baseurl }}/assets/reports/spp2-needfinding-report.pdf) |
 | SPP5 | Low-Fi Prototyping | [PDF Report]({{ site.baseurl }}/assets/reports/spp5-low-fi-prototyping-report.pdf) |
