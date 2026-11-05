@@ -1,4 +1,4 @@
-theme: Scriptor-Jekyll-Theme
+remote_theme: "justgoodthemes/scriptor-jekyll-theme"
 title: "ClearType"
 description: "Project website for HCI ClearType, containing presentations, reports, and interactive prototypes."
 tagline: " Making web content readable for every mind"
@@ -11,3 +11,6 @@ repository: "Javier-Coyoc.github.io"
 # Scriptor Header Navigation
 header_pages:
   - index.md
+
+plugins:
+  - jekyll-remote-theme
