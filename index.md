@@ -9,6 +9,21 @@ permalink: /
     scroll-behavior: smooth;
   }
 
+  /* Hide Jekyll theme default page title, description, and horizontal divider */
+  .page-header,
+  .page-title,
+  .post-title,
+  .entry-title,
+  .page-description,
+  .post-description,
+  .site-description,
+  .page-content > header,
+  .page-content > hr:first-of-type,
+  article > header,
+  article > hr:first-of-type {
+    display: none !important;
+  }
+
   /* Widen main content area across different Jekyll themes */
   .site-content,
   .page-content,
