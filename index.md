@@ -4,26 +4,56 @@ title: "ClearType"
 permalink: /
 ---
 
-<div style="text-align: center; margin-bottom: 2.5rem; padding-top: 1rem;">
-  <img src="{{ site.baseurl }}/assets/images/cleartype-logo.svg" alt="ClearType Logo" style="width: 280px; max-width: 100%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
-  <p style="font-size: 1.25rem; font-weight: 600; color: #475569; max-width: 720px; margin: 0 auto; line-height: 1.5;">
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Widen main content area across different Jekyll themes */
+  .site-content,
+  .page-content,
+  .wrapper,
+  .inner,
+  main,
+  article,
+  .post-content {
+    max-width: 1050px !important;
+    width: 92% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+</style>
+
+<!-- Top Hero Header with Integrated Navigation -->
+<div style="text-align: center; padding: 2.5rem 1.5rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; margin-bottom: 2.5rem;">
+  <img src="{{ site.baseurl }}/assets/images/cleartype-logo.svg" alt="ClearType Logo" style="width: 260px; max-width: 100%; height: auto; display: block; margin: 0 auto 1rem auto;">
+  <p style="font-size: 1.15rem; font-weight: 500; color: #475569; max-width: 750px; margin: 0 auto 1.5rem auto; line-height: 1.5;">
     Empowering readers with dyslexia through real-time, customizable visual typography overlays.
   </p>
+  
+  <!-- Navigation Buttons -->
+  <div style="display: flex; justify-content: center; gap: 0.6rem; flex-wrap: wrap;">
+    <a href="#about-the-project" style="background: #0f172a; color: #ffffff; padding: 7px 16px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.85rem;">About</a>
+    <a href="#meet-the-development-team" style="background: #0f172a; color: #ffffff; padding: 7px 16px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.85rem;">Team</a>
+    <a href="#phase-reports" style="background: #0f172a; color: #ffffff; padding: 7px 16px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.85rem;">Reports</a>
+    <a href="#presentations" style="background: #0f172a; color: #ffffff; padding: 7px 16px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.85rem;">Presentations</a>
+    <a href="#prototypes" style="background: #0f172a; color: #ffffff; padding: 7px 16px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.85rem;">Prototypes</a>
+  </div>
 </div>
 
 ## Introduction
 
-### About the Project
+<h3 id="about-the-project">About the Project</h3>
 Standard digital learning materials and web pages use dense layouts, harsh contrast, and rigid typography that cause rapid visual fatigue for dyslexic readers. ClearType is an interactive web platform that lets students and teachers preview, test, and toggle dyslexia-friendly formatting in real time through instant visual overlays and live controls.
 
-<h3 style="text-align: center; margin-top: 2.5rem; margin-bottom: 1.5rem;">Meet the development team</h3>
+<h3 id="meet-the-development-team" style="text-align: center; margin-top: 2.5rem; margin-bottom: 1.5rem;">Meet the development team</h3>
 
 <!-- Team Members Grid -->
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-bottom: 3rem;">
 
   <!-- Javier C. -->
-  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 200px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
-    <div style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
+  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 220px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+    <div style="width: 95px; height: 95px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
       <img src="{{ site.baseurl }}/assets/images/javier-picture.png" alt="Javier C." style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.3rem;">Javier C.</div>
@@ -31,8 +61,8 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
   </div>
 
   <!-- Ervin L. -->
-  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 200px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
-    <div style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
+  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 220px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+    <div style="width: 95px; height: 95px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
       <img src="{{ site.baseurl }}/assets/images/ervin-picture.png" alt="Ervin L." style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.3rem;">Ervin L.</div>
@@ -40,8 +70,8 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
   </div>
 
   <!-- Alfred A. -->
-  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 200px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
-    <div style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
+  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 220px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+    <div style="width: 95px; height: 95px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
       <img src="{{ site.baseurl }}/assets/images/alfred-picture.png" alt="Alfred A." style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.3rem;">Alfred A.</div>
@@ -54,14 +84,14 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 
 ## Documentation
 
-### Phase Reports
+<h3 id="phase-reports">Phase Reports</h3>
 
 <!-- Report Card: SPP2 -->
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-  <div style="flex: 1; min-width: 260px;">
+  <div style="flex: 1; min-width: 280px;">
     <img src="{{ site.baseurl }}/assets/images/SPP2-Report.png" alt="SPP2 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
-  <div style="flex: 1.2; min-width: 260px;">
+  <div style="flex: 1.5; min-width: 280px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP2 — Point of View & Experience Prototypes</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Comprehensive study on dyslexic reading hurdles, user interviews, and experience prototype insights.</p>
     <div>
@@ -72,10 +102,10 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 
 <!-- Report Card: SPP5 -->
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-direction: row-reverse;">
-  <div style="flex: 1; min-width: 260px;">
+  <div style="flex: 1; min-width: 280px;">
     <img src="{{ site.baseurl }}/assets/images/SPP5-Report.png" alt="SPP5 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
-  <div style="flex: 1.2; min-width: 260px;">
+  <div style="flex: 1.5; min-width: 280px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP5 — Low-Fi Prototyping Report</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Paper prototype testing observations, task success rates, and user feedback evaluations.</p>
     <div>
@@ -86,14 +116,14 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 
 ---
 
-### Presentations
+<h3 id="presentations">Presentations</h3>
 
 <!-- Presentation Card 1: SPP1 -->
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-  <div style="flex: 1; min-width: 260px;">
+  <div style="flex: 1; min-width: 280px;">
     <img src="{{ site.baseurl }}/assets/images/SPP1-Presentation.png" alt="SPP1 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
-  <div style="flex: 1.2; min-width: 260px;">
+  <div style="flex: 1.5; min-width: 280px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP1 — Needfinding Presentation</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Initial presentation establishing problem domain, target group needs, and initial project goals for dyslexic readers.</p>
     <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
@@ -105,10 +135,10 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 
 <!-- Presentation Card 2: SPP2 -->
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-direction: row-reverse;">
-  <div style="flex: 1; min-width: 260px;">
+  <div style="flex: 1; min-width: 280px;">
     <img src="{{ site.baseurl }}/assets/images/SPP2-Presentation.png" alt="SPP2 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
-  <div style="flex: 1.2; min-width: 260px;">
+  <div style="flex: 1.5; min-width: 280px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP2 — Point of View & Experience Prototypes</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Presentation on empathy mapping, POV statements, and early experience testing with readers.</p>
     <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
@@ -120,10 +150,10 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 
 <!-- Presentation Card 3: SPP4 -->
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-  <div style="flex: 1; min-width: 260px;">
+  <div style="flex: 1; min-width: 280px;">
     <img src="{{ site.baseurl }}/assets/images/SPP4-Presentation.png" alt="SPP4 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
-  <div style="flex: 1.2; min-width: 260px;">
+  <div style="flex: 1.5; min-width: 280px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP4 — Concept Video Presentation</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Visual narrative presentation showcasing real-world dyslexia reading hurdles and the ClearType workflow solution.</p>
     <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
@@ -135,10 +165,10 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 
 <!-- Presentation Card 4: SPP5 -->
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-direction: row-reverse;">
-  <div style="flex: 1; min-width: 260px;">
+  <div style="flex: 1; min-width: 280px;">
     <img src="{{ site.baseurl }}/assets/images/SPP5-Presentation.png" alt="SPP5 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
-  <div style="flex: 1.2; min-width: 260px;">
+  <div style="flex: 1.5; min-width: 280px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP5 — Low-Fi Prototyping & Pilot Usability Testing</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Overview of low-fidelity paper prototype trials, task execution metrics, and usability findings.</p>
     <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
@@ -148,15 +178,15 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
   </div>
 </div>
 
-<!-- Presentation Card 5: SPP7 — Poster & Pitch Slide (Placeholder for Grading) -->
+<!-- Presentation Card 5: SPP8 -->
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-  <div style="flex: 1; min-width: 260px;">
+  <div style="flex: 1; min-width: 280px;">
     <div style="width: 100%; height: 160px; background: #f1f5f9; border: 2px dashed #cbd5e1; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #64748b; font-weight: 600; text-align: center; padding: 1rem;">
-      SPP7 Poster & Pitch Thumbnail Placeholder
+      SPP8 Poster & Pitch Thumbnail Placeholder
     </div>
   </div>
-  <div style="flex: 1.2; min-width: 260px;">
-    <h3 style="margin-top: 0; color: #0f172a;">SPP7 — Poster & Pitch Slide</h3>
+  <div style="flex: 1.5; min-width: 280px;">
+    <h3 style="margin-top: 0; color: #0f172a;">SPP8 — Poster & Pitch Slide</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Final showcase presentation featuring our elevator pitch slide deck and capstone project poster summarizing the ClearType design process.</p>
     <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
       <a href="#" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; opacity: 0.85;">Pitch Slides (PDF)</a>
@@ -169,7 +199,7 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 
 ---
 
-## Prototypes
+<h2 id="prototypes">Prototypes</h2>
 
 ### Medium-Fidelity Prototype
 - **Link:** [Launch Wireframe Prototype (Figma)](https://figma.com/your-med-fi-link)
