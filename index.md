@@ -50,8 +50,8 @@ permalink: /
 <!-- Top Hero Header with Integrated Navigation -->
 <div style="text-align: center; padding: 2.5rem 1.5rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; margin-bottom: 2.5rem;">
   <img src="{{ site.baseurl }}/assets/images/cleartype-logo.svg" alt="ClearType Logo" style="width: 260px; max-width: 100%; height: auto; display: block; margin: 0 auto 1rem auto;">
-  <p style="font-size: 1.2rem; font-weight: 500; color: #475569; max-width: 750px; margin: 0 auto 1.5rem auto; line-height: 1.6;">
-    Empowering readers with dyslexia through real-time, customizable visual typography overlays.
+  <p style="font-size: 1.8rem; font-weight: 600; color: #475569; max-width: 750px; margin: 0 auto 1.5rem auto; line-height: 1.6;">
+    Making web content readable for every mind
   </p>
   
   <!-- Navigation Buttons -->
