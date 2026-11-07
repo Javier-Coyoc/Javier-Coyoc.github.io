@@ -4,9 +4,9 @@ title: "ClearType"
 permalink: /
 ---
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="{{ site.baseurl }}/assets/images/cleartype-logo.svg" alt="ClearType Logo" style="width: 280px; max-width: 100%; height: auto;">
-  <p style="font-size: 1.25rem; font-weight: bold; color: #444;">
+<div style="text-align: center; margin-bottom: 2.5rem; padding-top: 1rem;">
+  <img src="{{ site.baseurl }}/assets/images/cleartype-logo.svg" alt="ClearType Logo" style="width: 280px; max-width: 100%; height: auto; display: block; margin: 0 auto 1.5rem auto;">
+  <p style="font-size: 1.25rem; font-weight: 600; color: #475569; max-width: 720px; margin: 0 auto; line-height: 1.5;">
     Empowering readers with dyslexia through real-time, customizable visual typography overlays.
   </p>
 </div>
@@ -16,23 +16,53 @@ permalink: /
 ### About the Project
 Standard digital learning materials and web pages use dense layouts, harsh contrast, and rigid typography that cause rapid visual fatigue for dyslexic readers. ClearType is an interactive web platform that lets students and teachers preview, test, and toggle dyslexia-friendly formatting in real time through instant visual overlays and live controls.
 
-### Team Members & Roles
-- **Javier C.** — Project Website Programmer
-- **Ervin L.** — UI/UX Designer & Prototyper
-- **Alfred A.** — UI/UX Designer
+<h3 style="text-align: center; margin-top: 2.5rem; margin-bottom: 1.5rem;">Meet the development team</h3>
+
+<!-- Team Members Grid -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; margin-bottom: 3rem;">
+
+  <!-- Javier C. -->
+  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 200px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+    <div style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
+      <img src="{{ site.baseurl }}/assets/images/javier-picture.png" alt="Javier C." style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.3rem;">Javier C.</div>
+    <div style="font-size: 0.85rem; color: #a1a1aa;">Project Website Programmer</div>
+  </div>
+
+  <!-- Ervin L. -->
+  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 200px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+    <div style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
+      <img src="{{ site.baseurl }}/assets/images/ervin-picture.png" alt="Ervin L." style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.3rem;">Ervin L.</div>
+    <div style="font-size: 0.85rem; color: #a1a1aa;">UI/UX Designer & Prototyper</div>
+  </div>
+
+  <!-- Alfred A. -->
+  <div style="background: #262626; border: 1px solid #3f3f46; border-radius: 8px; padding: 1.5rem 1rem; width: 200px; text-align: center; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+    <div style="width: 90px; height: 90px; border-radius: 50%; overflow: hidden; margin: 0 auto 1rem auto; background: #3f3f46;">
+      <img src="{{ site.baseurl }}/assets/images/alfred-picture.png" alt="Alfred A." style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <div style="font-size: 1.1rem; font-weight: bold; margin-bottom: 0.3rem;">Alfred A.</div>
+    <div style="font-size: 0.85rem; color: #a1a1aa;">UI/UX Designer</div>
+  </div>
+
+</div>
 
 ---
 
 ## Documentation
 
 ### Phase Reports
-<!-- Report Card 1: SPP2 -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+
+<!-- Report Card: SPP2 -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
   <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/spp2-preview.png" alt="SPP2 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+    <img src="{{ site.baseurl }}/assets/images/SPP2-Report.png" alt="SPP2 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
   <div style="flex: 1.2; min-width: 260px;">
-    <h3 style="margin-top: 0; color: #0f172a;">SPP2 — Needfinding & Problem Discovery</h3>
+    <h3 style="margin-top: 0; color: #0f172a;">SPP2 — Point of View & Experience Prototypes</h3>
     <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Comprehensive study on dyslexic reading hurdles, user interviews, and experience prototype insights.</p>
     <div>
       <a href="{{ site.baseurl }}/assets/reports/spp2-needfinding-report.pdf" target="_blank" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">PDF Report</a>
@@ -40,10 +70,10 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
   </div>
 </div>
 
-<!-- Report Card 2: SPP5 -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); flex-direction: row-reverse;">
+<!-- Report Card: SPP5 -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-direction: row-reverse;">
   <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/spp5-preview.png" alt="SPP5 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+    <img src="{{ site.baseurl }}/assets/images/SPP5-Report.png" alt="SPP5 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
   <div style="flex: 1.2; min-width: 260px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP5 — Low-Fi Prototyping Report</h3>
@@ -54,41 +84,14 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
   </div>
 </div>
 
-<!-- Report Card 3: Phase 3 -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-  <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/spp3-preview.png" alt="Phase 3 Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
-  </div>
-  <div style="flex: 1.2; min-width: 260px;">
-    <h3 style="margin-top: 0; color: #0f172a;">Phase 3 — Medium-Fidelity Evaluation</h3>
-    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Evaluation report analyzing wireframe interactions, navigation flows, and overlay controls.</p>
-    <div>
-      <a href="{{ site.baseurl }}/assets/reports/spp3-medfi-report.pdf" target="_blank" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">PDF Report</a>
-    </div>
-  </div>
-</div>
-
-<!-- Report Card 4: Final Report -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); flex-direction: row-reverse;">
-  <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/final-preview.png" alt="Final Report Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
-  </div>
-  <div style="flex: 1.2; min-width: 260px;">
-    <h3 style="margin-top: 0; color: #0f172a;">Final Project Report</h3>
-    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Complete end-to-end documentation of design iterations, usability evaluations, and platform results.</p>
-    <div>
-      <a href="{{ site.baseurl }}/assets/reports/final-report.pdf" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">PDF Report</a>
-    </div>
-  </div>
-</div>
 ---
 
 ### Presentations
 
 <!-- Presentation Card 1: SPP1 -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
   <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/spp1-preview.png" alt="SPP1 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+    <img src="{{ site.baseurl }}/assets/images/SPP1-Presentation.png" alt="SPP1 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
   <div style="flex: 1.2; min-width: 260px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP1 — Needfinding Presentation</h3>
@@ -101,9 +104,9 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 </div>
 
 <!-- Presentation Card 2: SPP2 -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); flex-direction: row-reverse;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-direction: row-reverse;">
   <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/spp2-preview.png" alt="SPP2 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+    <img src="{{ site.baseurl }}/assets/images/SPP2-Presentation.png" alt="SPP2 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
   <div style="flex: 1.2; min-width: 260px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP2 — Point of View & Experience Prototypes</h3>
@@ -116,9 +119,9 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 </div>
 
 <!-- Presentation Card 3: SPP4 -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
   <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/spp4-preview.png" alt="SPP4 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+    <img src="{{ site.baseurl }}/assets/images/SPP4-Presentation.png" alt="SPP4 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
   <div style="flex: 1.2; min-width: 260px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP4 — Concept Video Presentation</h3>
@@ -131,9 +134,9 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
 </div>
 
 <!-- Presentation Card 4: SPP5 -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); flex-direction: row-reverse;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); flex-direction: row-reverse;">
   <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/spp5-preview.png" alt="SPP5 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
+    <img src="{{ site.baseurl }}/assets/images/SPP5-Presentation.png" alt="SPP5 Presentation Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
   </div>
   <div style="flex: 1.2; min-width: 260px;">
     <h3 style="margin-top: 0; color: #0f172a;">SPP5 — Low-Fi Prototyping & Pilot Usability Testing</h3>
@@ -141,21 +144,6 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
     <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
       <a href="{{ site.baseurl }}/assets/presentations/spp5-presentation.pdf" target="_blank" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">PDF Slides</a>
       <a href="{{ site.baseurl }}/assets/presentations/spp5-presentation.pptx" download style="background-color: #6c757d; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">PowerPoint (.pptx)</a>
-    </div>
-  </div>
-</div>
-
-<!-- Final Poster Card (Graded at end of semester) -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-  <div style="flex: 1; min-width: 260px;">
-    <img src="{{ site.baseurl }}/assets/images/poster-preview.png" alt="Final Poster Preview" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
-  </div>
-  <div style="flex: 1.2; min-width: 260px;">
-    <h3 style="margin-top: 0; color: #0f172a;">Final Project Poster</h3>
-    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Comprehensive summary poster illustrating problem statement, interface architecture, and prototype outcomes.</p>
-    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-      <a href="{{ site.baseurl }}/assets/presentations/final-poster.pdf" target="_blank" style="background-color: #28a745; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">Poster PDF</a>
-      <a href="{{ site.baseurl }}/assets/presentations/final-poster.pptx" download style="background-color: #6c757d; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem;">Source File (.pptx / .svg)</a>
     </div>
   </div>
 </div>
