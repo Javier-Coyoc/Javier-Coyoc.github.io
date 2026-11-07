@@ -226,19 +226,8 @@ permalink: /
 
 <h2 id="prototypes" style="font-size: 1.6rem; margin-bottom: 1.5rem;">Prototypes</h2>
 
-<!-- Low-Fidelity Prototype Card -->
-<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2.5rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-  <div style="flex: 1; min-width: 280px;">
-    <img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Paper Prototype" style="width: 100%; border-radius: 6px; border: 1px solid #cbd5e1;">
-  </div>
-  <div style="flex: 1.5; min-width: 280px;">
-    <h3 style="margin-top: 0; color: #0f172a; font-size: 1.3rem;">Low-Fidelity Prototype</h3>
-    <p style="color: #475569; line-height: 1.7; margin-bottom: 1rem; font-size: 1.05rem;">Paper interface sketches demonstrating initial navigation, contrast toggle switches, and font preview overlays evaluated during pilot usability testing.</p>
-    <div>
-      <a href="{{ site.baseurl }}/assets/reports/spp5-low-fi-prototyping-report.pdf" target="_blank" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block;">View Testing Report</a>
-    </div>
-  </div>
-</div>
+<!-- Low-Fidelity Prototype Image -->
+<img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; display: block;">
 
 ### Medium-Fidelity Prototype
 - **Link:** [Launch Wireframe Prototype (Figma)](https://figma.com/your-med-fi-link)
