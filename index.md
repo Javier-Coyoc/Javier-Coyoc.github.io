@@ -148,6 +148,25 @@ Standard digital learning materials and web pages use dense layouts, harsh contr
   </div>
 </div>
 
+<!-- Presentation Card 5: SPP7 — Poster & Pitch Slide (Placeholder for Grading) -->
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-bottom: 2rem; background: #ffffff; padding: 1.5rem; border: 1px solid #e2e8f0; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="flex: 1; min-width: 260px;">
+    <div style="width: 100%; height: 160px; background: #f1f5f9; border: 2px dashed #cbd5e1; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #64748b; font-weight: 600; text-align: center; padding: 1rem;">
+      SPP7 Poster & Pitch Thumbnail Placeholder
+    </div>
+  </div>
+  <div style="flex: 1.2; min-width: 260px;">
+    <h3 style="margin-top: 0; color: #0f172a;">SPP7 — Poster & Pitch Slide</h3>
+    <p style="color: #475569; line-height: 1.6; margin-bottom: 1rem;">Final showcase presentation featuring our elevator pitch slide deck and capstone project poster summarizing the ClearType design process.</p>
+    <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+      <a href="#" style="background-color: #007bff; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; opacity: 0.85;">Pitch Slides (PDF)</a>
+      <a href="#" style="background-color: #6c757d; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; opacity: 0.85;">Pitch Source (.pptx)</a>
+      <a href="#" style="background-color: #28a745; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; opacity: 0.85;">Poster (PDF)</a>
+      <a href="#" style="background-color: #6c757d; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; opacity: 0.85;">Poster Source (.pptx / .svg)</a>
+    </div>
+  </div>
+</div>
+
 ---
 
 ## Prototypes
