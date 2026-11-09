@@ -230,7 +230,7 @@ permalink: /
 <img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; display: block;">
 
 ### Medium-Fidelity Prototype
-- **Link:** [Launch Wireframe Prototype (Figma)]([https://figma.com/proto/gOqo0Y2JVES3FP581AK846/ClearType-SPP6?node-id=1-8&p=f&t=KIXGTaMVbrXJYDWN-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8])
+- **Link:** [Launch Wireframe Prototype (Figma)](https://figma.com/proto/gOqo0Y2JVES3FP581AK846/ClearType-SPP6?node-id=1-8&p=f&t=KIXGTaMVbrXJYDWN-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8)
 - **Instructions:**
   1. Click the prototype link above to open the interactive Figma canvas.
   2. Click **Present (Play button)** in the top right corner.
