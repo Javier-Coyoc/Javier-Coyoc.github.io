@@ -427,9 +427,8 @@ permalink: /
 <h2 id="prototypes" style="font-size: 1.6rem; margin-bottom: 1.5rem;">Prototypes</h2>
 
 <!-- Low-Fidelity Prototype Image -->
-<img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; display: block;">
+<img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 60%; max-width: 70%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; display: block;">
 
-### Medium-Fidelity Prototype
 <h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 0.75rem;">Medium-Fidelity Prototype</h3>
 
 <ul style="font-size: 1.15rem; line-height: 1.8; color: #334155; margin-left: 1.25rem;">
