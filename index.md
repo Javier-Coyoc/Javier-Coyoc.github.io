@@ -134,8 +134,9 @@ permalink: /
     flex-direction: row-reverse;
   }
   .doc-media {
-    flex: 1;
-    min-width: 260px;
+    flex: 0 0 220px;
+    max-width: 220px;
+    width: 100%;
   }
   .doc-media img {
     width: 100%;
@@ -143,9 +144,10 @@ permalink: /
     border-radius: 6px;
     border: 1px solid #cbd5e1;
     display: block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   }
   .doc-info {
-    flex: 1.5;
+    flex: 1;
     min-width: 260px;
   }
   .doc-info h3 {
@@ -197,22 +199,6 @@ permalink: /
     display: inline-block;
   }
 
-  /* Placeholder Styling */
-  .doc-placeholder {
-    width: 100%;
-    min-height: 160px;
-    background: #f1f5f9;
-    border: 2px dashed #cbd5e1;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #64748b;
-    font-weight: 600;
-    text-align: center;
-    padding: 1rem;
-  }
-
   /* Mobile Media Query Adjustments */
   @media (max-width: 768px) {
     .hero-card {
@@ -228,11 +214,14 @@ permalink: /
     }
     .doc-card,
     .doc-card.reverse {
-      flex-direction: column !important; /* Image always stays on top on mobile */
+      flex-direction: column !important;
       gap: 1.25rem;
       padding: 1.25rem;
     }
-    .doc-media,
+    .doc-media {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
     .doc-info {
       width: 100%;
       min-width: 100%;
@@ -407,9 +396,7 @@ permalink: /
 <!-- Presentation Card 5: SPP7 -->
 <div class="doc-card">
   <div class="doc-media">
-    <div class="doc-placeholder">
-      SPP7 Poster & Pitch Thumbnail Placeholder
-    </div>
+    <img src="{{ site.baseurl }}/assets/images/pitch-thumbnail.png" alt="SPP7 Pitch Preview">
   </div>
   <div class="doc-info">
     <h3>SPP7 — Poster & Pitch Slide</h3>
@@ -426,21 +413,15 @@ permalink: /
 
 <h2 id="prototypes" style="font-size: 1.6rem; margin-bottom: 1.5rem;">Prototypes</h2>
 
-<!-- Low-Fidelity Prototype Image -->
-<img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 60%; max-width: 70%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; display: block;">
+<!-- Low-Fidelity Prototype Image (Centered) -->
+<img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 60%; max-width: 650px; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin: 0 auto 2.5rem auto; display: block;">
 
 <h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 0.75rem;">Medium-Fidelity Prototype</h3>
 
 <ul style="font-size: 1.15rem; line-height: 1.8; color: #334155; margin-left: 1.25rem;">
   <li><strong>Link:</strong> <a href="https://figma.com/proto/gOqo0Y2JVES3FP581AK846/ClearType-SPP6?node-id=1-8&p=f&t=KIXGTaMVbrXJYDWN-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8" target="_blank" style="color: #007bff; font-weight: 600;">Launch Wireframe Prototype (Figma)</a></li>
-  <li>
-    <strong>Instructions:</strong>
-    <ol style="font-size: 1.15rem; line-height: 1.8; margin-top: 0.5rem; margin-left: 1.25rem;">
-      <li>Click the prototype link above to open the interactive Figma canvas.</li>
-      <li>Click <strong>Present (Play button)</strong> in the top right corner.</li>
-      <li><strong>Test task 1:</strong> Go to Reading View[DEMO]. Toggle the font selector, then select the OpenDyslexic font visual overlay.</li>
-      <li><strong>Test task 2:</strong> Go to Clean My Notes and select some text. After using one of the buttons to clean the notes, then try to undo it and reset it.</li>
-      <li><strong>Test task 3:</strong> Go to Teacher Preview and create some text, then make the text more dyslexia-friendly by interacting with the suggestions.</li>
-    </ol>
-  </li>
 </ul>
+
+<div class="btn-group" style="margin-top: 1.25rem; margin-bottom: 2rem;">
+  <a href="{{ site.baseurl }}/instructions" target="_blank" class="btn-primary">View Prototype Instructions</a>
+</div>
