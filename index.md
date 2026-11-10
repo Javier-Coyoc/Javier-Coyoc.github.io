@@ -432,12 +432,18 @@ permalink: /
 <div markdown="1" style="font-size: 1.4rem; line-height: 1.8; color: #334155;">
 
 ### Medium-Fidelity Prototype
-- **Link:** [Launch Wireframe Prototype (Figma)](https://figma.com/proto/gOqo0Y2JVES3FP581AK846/ClearType-SPP6?node-id=1-8&p=f&t=KIXGTaMVbrXJYDWN-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8)
-- **Instructions:**
-  1. Click the prototype link above to open the interactive Figma canvas.
-  2. Click **Present (Play button)** in the top right corner.
-  3. **Test task 1:** Go to Reading View[DEMO]. Toggle the font selector, then select the OpenDyslexic font visual overlay.
-  4. **Test task 2:** Go to Clean My Notes and select some text. After using one of the buttons to clean the notes, then try to undo it and reset it.
-  5. **Test task 3:** Go to Teacher Preview and create some text, then make the text more dyslexia-friendly by interacting with the suggestions.
+<h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 0.75rem;">Medium-Fidelity Prototype</h3>
 
-</div>
+<ul style="font-size: 1.15rem; line-height: 1.8; color: #334155; margin-left: 1.25rem;">
+  <li><strong>Link:</strong> <a href="https://figma.com/proto/gOqo0Y2JVES3FP581AK846/ClearType-SPP6?node-id=1-8&p=f&t=KIXGTaMVbrXJYDWN-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8" target="_blank" style="color: #007bff; font-weight: 600;">Launch Wireframe Prototype (Figma)</a></li>
+  <li>
+    <strong>Instructions:</strong>
+    <ol style="font-size: 1.15rem; line-height: 1.8; margin-top: 0.5rem; margin-left: 1.25rem;">
+      <li>Click the prototype link above to open the interactive Figma canvas.</li>
+      <li>Click <strong>Present (Play button)</strong> in the top right corner.</li>
+      <li><strong>Test task 1:</strong> Go to Reading View[DEMO]. Toggle the font selector, then select the OpenDyslexic font visual overlay.</li>
+      <li><strong>Test task 2:</strong> Go to Clean My Notes and select some text. After using one of the buttons to clean the notes, then try to undo it and reset it.</li>
+      <li><strong>Test task 3:</strong> Go to Teacher Preview and create some text, then make the text more dyslexia-friendly by interacting with the suggestions.</li>
+    </ol>
+  </li>
+</ul>
