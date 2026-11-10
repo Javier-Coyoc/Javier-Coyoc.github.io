@@ -434,11 +434,6 @@ permalink: /
 - **Instructions:**
   1. Click the prototype link above to open the interactive Figma canvas.
   2. Click **Present (Play button)** in the top right corner.
-  3. Test task 1: Toggle the font selector and select an OpenDyslexic font visual overlay.
-
-### High-Fidelity Prototype
-- **Link:** [Launch Interactive Web Prototype](https://your-demo-app.com) | [View Code Repo](https://github.com/Javier-Coyoc/prototype-app)
-- **Instructions:**
-  1. Log in using guest credentials: User: `test@example.com` / Pass: `demo123`.
-  2. Navigate to the **Reader Preview Canvas**.
-  3. Adjust the line-spacing slider to test real-time visual formatting adjustment.
+  3. Test task 1: Go to Reading View[DEMO]. Toggle the font selector, then select the OpenDyslexic font visual overlay.
+  4. Test task 2: Go to Clean My Notes and select some text. After using one of the buttons to clean the notes, then try to undo it and reset it.
+  5. Test task 3: Go to Teacher Preview and create some text, then make the text more dyslexia-friendly by interacting with the suggestions
