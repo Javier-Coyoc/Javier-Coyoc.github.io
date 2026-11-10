@@ -256,7 +256,7 @@ permalink: /
 
 ## Introduction
 
-<h3 id="about-the-project" style="font-size: 1.5rem; margin-bottom: 1rem;">About the Project</h3>
+<h3 id="about-the-project" style="font-size: 1.5rem; margin-bottom: 1rem; text-align: center;">About the Project</h3>
 <p style="font-size: 1.2rem; line-height: 1.85; color: #334155; margin-bottom: 2rem;">
   Standard digital learning materials and web pages use dense layouts, harsh contrast, and rigid typography that cause rapid visual fatigue for dyslexic readers. <strong>ClearType</strong> is an interactive web platform that lets students and teachers preview, test, and toggle dyslexia-friendly formatting in real time through instant visual overlays and live controls.
 </p>
