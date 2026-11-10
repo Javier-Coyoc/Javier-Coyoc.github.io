@@ -256,7 +256,7 @@ permalink: /
 
 ## Introduction
 
-<h3 id="about-the-project" style="font-size: 1.5rem; margin-bottom: 1rem; text-align: center;">About the Project</h3>
+<h3 id="about-the-project" style="font-size: 1.5rem; margin-bottom: 1rem;">About the Project</h3>
 <p style="font-size: 1.2rem; line-height: 1.85; color: #334155; margin-bottom: 2rem;">
   Standard digital learning materials and web pages use dense layouts, harsh contrast, and rigid typography that cause rapid visual fatigue for dyslexic readers. <strong>ClearType</strong> is an interactive web platform that lets students and teachers preview, test, and toggle dyslexia-friendly formatting in real time through instant visual overlays and live controls.
 </p>
@@ -393,8 +393,23 @@ permalink: /
   </div>
 </div>
 
-<!-- Presentation Card 5: SPP7 -->
+<!-- Presentation Card 5: SPP6 -->
 <div class="doc-card">
+  <div class="doc-media">
+    <img src="{{ site.baseurl }}/assets/images/SPP6-thumbnail.png" alt="SPP6 Presentation Preview">
+  </div>
+  <div class="doc-info">
+    <h3>SPP6 — Medium-Fidelity Prototype Presentation</h3>
+    <p>Interactive medium-fidelity wireframes demonstration, design task flows, and user interface controls.</p>
+    <div class="btn-group">
+      <a href="{{ site.baseurl }}/assets/images/SPP6 - Medium-Fi Prototype.pdf" target="_blank" class="btn-primary">PDF Slides</a>
+      <a href="https://docs.google.com/presentation/d/1HKmpflg-MJcYEDHc2QgnqKXcO-pOfTodOUJ2YronaHM/edit?slide=id.p#slide=id.p" target="_blank" class="btn-secondary">Google Slides</a>
+    </div>
+  </div>
+</div>
+
+<!-- Presentation Card 6: SPP7 -->
+<div class="doc-card reverse">
   <div class="doc-media">
     <img src="{{ site.baseurl }}/assets/images/pitch-thumbnail.png" alt="SPP7 Pitch Preview">
   </div>
@@ -411,12 +426,12 @@ permalink: /
 
 ---
 
-<h2 id="prototypes" style="font-size: 1.6rem; margin-bottom: 1.5rem;">Prototypes</h2>
+<h2 id="prototypes" style="font-size: 1.8rem; margin-bottom: 1.5rem;">Prototypes</h2>
 
-<!-- Low-Fidelity Prototype Image (Centered) -->
+<h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 0.75rem;">Low-Fi Prototype</h3>
 <img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 60%; max-width: 650px; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin: 0 auto 2.5rem auto; display: block;">
 
-<h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 0.75rem;">Medium-Fidelity Prototype</h3>
+<h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 0.75rem;">Medium-Fi Prototype</h3>
 
 <ul style="font-size: 1.15rem; line-height: 1.8; color: #334155; margin-left: 1.25rem;">
   <li><strong>Link:</strong> <a href="https://figma.com/proto/gOqo0Y2JVES3FP581AK846/ClearType-SPP6?node-id=1-8&p=f&t=KIXGTaMVbrXJYDWN-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8" target="_blank" style="color: #007bff; font-weight: 600;">Launch Wireframe Prototype (Figma)</a></li>
