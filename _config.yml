@@ -1,4 +1,5 @@
-remote_theme: "justgoodthemes/scriptor-jekyll-theme"
+remote_theme: pages-themes/midnight@v0.2.0
+
 title: "ClearType"
 description: "Project website for HCI ClearType, containing presentations, reports, and interactive prototypes."
 tagline: " Making web content readable for every mind"
@@ -13,4 +14,4 @@ header_pages:
   - index.md
 
 plugins:
-  - jekyll-remote-theme
+- jekyll-remote-theme
