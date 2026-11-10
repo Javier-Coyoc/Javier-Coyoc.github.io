@@ -429,8 +429,6 @@ permalink: /
 <!-- Low-Fidelity Prototype Image -->
 <img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; display: block;">
 
-<div markdown="1" style="font-size: 1.4rem; line-height: 1.8; color: #334155;">
-
 ### Medium-Fidelity Prototype
 <h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 0.75rem;">Medium-Fidelity Prototype</h3>
 
