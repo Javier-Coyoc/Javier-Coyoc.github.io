@@ -413,7 +413,7 @@ permalink: /
   </div>
   <div class="doc-info">
     <h3>SPP7 — Poster & Pitch Slide</h3>
-    <p>Final showcase presentation featuring our elevator pitch slide deck and capstone project poster summarizing the ClearType design process.</p>
+    <p>Final showing Poster & Pitch slide</p>
     <div class="btn-group">
       <a href="#" class="btn-primary" style="opacity: 0.85;">Pitch Slides (PDF)</a>
       <a href="https://docs.google.com/presentation/d/1u9fn0gHisWA_eYJ8MssCFnWB4gj3TuDNXC7pdkyeBcs/edit?usp=sharing" target="_blank" class="btn-secondary">Pitch Source (.pptx)</a>
@@ -429,11 +429,15 @@ permalink: /
 <!-- Low-Fidelity Prototype Image -->
 <img src="{{ site.baseurl }}/assets/images/low-fi-prototype.png" alt="Low-Fidelity Prototype" style="width: 100%; max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; display: block;">
 
+<div markdown="1" style="font-size: 1.2rem; line-height: 1.8; color: #334155;">
+
 ### Medium-Fidelity Prototype
 - **Link:** [Launch Wireframe Prototype (Figma)](https://figma.com/proto/gOqo0Y2JVES3FP581AK846/ClearType-SPP6?node-id=1-8&p=f&t=KIXGTaMVbrXJYDWN-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A8)
 - **Instructions:**
   1. Click the prototype link above to open the interactive Figma canvas.
   2. Click **Present (Play button)** in the top right corner.
-  3. Test task 1: Go to Reading View[DEMO]. Toggle the font selector, then select the OpenDyslexic font visual overlay.
-  4. Test task 2: Go to Clean My Notes and select some text. After using one of the buttons to clean the notes, then try to undo it and reset it.
-  5. Test task 3: Go to Teacher Preview and create some text, then make the text more dyslexia-friendly by interacting with the suggestions
+  3. **Test task 1:** Go to Reading View[DEMO]. Toggle the font selector, then select the OpenDyslexic font visual overlay.
+  4. **Test task 2:** Go to Clean My Notes and select some text. After using one of the buttons to clean the notes, then try to undo it and reset it.
+  5. **Test task 3:** Go to Teacher Preview and create some text, then make the text more dyslexia-friendly by interacting with the suggestions.
+
+</div>
