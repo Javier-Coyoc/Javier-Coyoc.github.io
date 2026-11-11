@@ -32,7 +32,7 @@ permalink: /
   main,
   article,
   .post-content {
-    max-width: 900px !important;
+    max-width: 880px !important;
     width: 92% !important;
     margin-left: auto !important;
     margin-right: auto !important;
