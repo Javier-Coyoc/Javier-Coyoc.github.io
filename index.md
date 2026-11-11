@@ -247,6 +247,7 @@ permalink: /
   <!-- Navigation Buttons -->
   <div class="nav-pills">
     <a href="#about-the-project" class="nav-pill">About</a>
+    <a href="#concept-video" class="nav-pill">Video</a>
     <a href="#meet-the-development-team" class="nav-pill">Team</a>
     <a href="#phase-reports" class="nav-pill">Reports</a>
     <a href="#presentations" class="nav-pill">Presentations</a>
@@ -260,6 +261,18 @@ permalink: /
 <p style="font-size: 1.2rem; line-height: 1.85; color: #334155; margin-bottom: 2rem;">
   Standard digital learning materials and web pages use dense layouts, harsh contrast, and rigid typography that cause rapid visual fatigue for dyslexic readers. <strong>ClearType</strong> is an interactive web platform that lets students and teachers preview, test, and toggle dyslexia-friendly formatting in real time through instant visual overlays and live controls.
 </p>
+
+<!-- Concept Video Section -->
+<h3 id="concept-video" style="font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem;">Concept video</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+  <iframe 
+    src="https://www.youtube.com/embed/fEz7OtF2Vk0" 
+    title="ClearType Concept Video" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
 
 <h3 id="meet-the-development-team" style="text-align: center; margin-top: 2.5rem; margin-bottom: 1.5rem; font-size: 1.5rem;">Meet the development team</h3>
 
