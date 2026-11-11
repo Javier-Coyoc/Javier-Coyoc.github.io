@@ -32,7 +32,7 @@ permalink: /
   main,
   article,
   .post-content {
-    max-width: 1050px !important;
+    max-width: 900px !important;
     width: 92% !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -263,15 +263,13 @@ permalink: /
 </p>
 
 <!-- Concept Video Section -->
-<h3 id="concept-video" style="font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem;">Concept video</h3>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; border: 1px solid #cbd5e1; margin-bottom: 2.5rem; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-  <iframe 
-    src="https://www.youtube.com/embed/fEz7OtF2Vk0" 
-    title="ClearType Concept Video" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
+<h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 1rem;">Concept Video</h3>
+
+<div style="max-width: 650px; margin: 0 auto 2.5rem auto;">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <!-- Replace src below with your actual YouTube / Drive embed URL -->
+    <iframe src="YOUR_VIDEO_EMBED_URL_HERE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+  </div>
 </div>
 
 <h3 id="meet-the-development-team" style="text-align: center; margin-top: 2.5rem; margin-bottom: 1.5rem; font-size: 1.5rem;">Meet the development team</h3>
