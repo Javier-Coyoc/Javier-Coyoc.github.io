@@ -417,7 +417,7 @@ permalink: /
     <h3>SPP7 — Poster & Pitch Slide</h3>
     <p>Final showing Poster & Pitch slide</p>
     <div class="btn-group">
-      <a href="#" class="btn-primary" style="opacity: 0.85;">Pitch Slides (PDF)</a>
+      <a href="{{ site.baseurl }}/assets/images/Pitch-Slide.pdf" class="btn-primary" style="opacity: 0.85;">Pitch Slides (PDF)</a>
       <a href="https://docs.google.com/presentation/d/1u9fn0gHisWA_eYJ8MssCFnWB4gj3TuDNXC7pdkyeBcs/edit?usp=sharing" target="_blank" class="btn-secondary">Pitch Source (.pptx)</a>
       <a href="{{ site.baseurl }}/assets/images/poster.pdf" target="_blank" class="btn-success">Poster (PDF)</a>
     </div>
