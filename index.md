@@ -263,12 +263,11 @@ permalink: /
 </p>
 
 <!-- Concept Video Section -->
-<h3 style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 1rem;">Concept Video</h3>
+<h3 id="concept-video" style="font-size: 1.5rem; color: #0f172a; margin-top: 2rem; margin-bottom: 1rem;">Concept Video</h3>
 
 <div style="max-width: 650px; margin: 0 auto 2.5rem auto;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; border: 1px solid #cbd5e1; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <!-- Replace src below with your actual YouTube / Drive embed URL -->
-    <iframe src="[HCI Concept Video](https://www.youtube.com/watch?v=fEz7OtF2Vk0&feature=youtu.be)" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/fEz7OtF2Vk0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -428,7 +427,7 @@ permalink: /
     <h3>SPP7 — Poster & Pitch Slide</h3>
     <p>Final showing Poster & Pitch slide</p>
     <div class="btn-group">
-      <a href="{{ site.baseurl }}/assets/images/Pitch-Slide.pdf" class="btn-primary" style="opacity: 0.85;">Pitch Slides (PDF)</a>
+      <a href="{{ site.baseurl }}/assets/images/Pitch-Slide.pdf" target="_blank" class="btn-primary">Pitch Slides (PDF)</a>
       <a href="https://docs.google.com/presentation/d/1u9fn0gHisWA_eYJ8MssCFnWB4gj3TuDNXC7pdkyeBcs/edit?usp=sharing" target="_blank" class="btn-secondary">Pitch Source (.pptx)</a>
       <a href="{{ site.baseurl }}/assets/images/poster.pdf" target="_blank" class="btn-success">Poster (PDF)</a>
     </div>
